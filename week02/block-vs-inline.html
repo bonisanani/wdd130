@@ -1,19 +1,44 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-US">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Exercise: Block vs. Inline Elements</title>
+    <title>A basic HTML structure</title>
+    <meta name="description" content="A basic HTML structure example using semantic HTML elements">
+    <meta name="author" content="Bonisanani Ndlovu">
     <link rel="stylesheet" href="styles/block-vs-inline.css">
 </head>
 
 <body>
+    <header>
+        <img src="images/basic-logo.png" alt="HTML Layout Logo" width="128" height="128">
+    </header>
+    <nav>
+        <ul>
+            <li><a href="https://byui.edu">&lt;BYU-Idaho&gt;</a></li>
+            <li><a href="https://churchofjesuschrist.org">&lt;The Church&gt;</a></li>
+        </ul>
+    </nav>
     <main>
-        <h1>Exercise: Block vs. Inline Elements</h1>
-        <p class="note">Some basic styling has been applied in order to illustrate the elements structure and
-            boundaries.</p>
-
+        <h1>Basic HTML Structure</h1>
+        <section>
+            <h2>Heading</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam quasi, delectus pariatur deleniti
+                aspernatur laborum quibusdam sequi asperiores dolore veniam?</p>
+        </section>
+        <section>
+            <h2>Heading</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam quasi, delectus pariatur deleniti
+                aspernatur laborum quibusdam sequi asperiores dolore veniam?</p>
+        </section>
+    </main>
+    <aside>
+        <img src="https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/accra-ghana/800x500/accra-ghana-temple-758797-wallpaper.jpg"
+            alt="Accra Ghana Temple" width="200">
+    </aside>
+    <footer>
+        <p>&#127796; Bonisanani Ndlovu</p>
         <h2>Task 1: Swap Block and Inline Elements</h2>
         <div>In the HTML of this document, change this div element to a span element.</div>
 
@@ -21,20 +46,20 @@
 
         <h2>Task 2: Nesting Inline in Block</h2>
         <p>A paragraph &lt;p&gt; element (block) with a <span>&lt;span&gt; element;</span></p>
-        <p class="question">Add another inline element like &lt;em&gt; or &lt;strong&gt; inside the paragraph. Observe
+        <p class="question">Add another inline element like &lt;em&gt; or &lt;strong&gt; inside the paragraph.
+            Observe
             how it flows within the line.</p>
 
         <h2>Task3: Nesting Block in Inline</h2>
         <span>Try placing a &lt;div&gt; inside a &lt;span&gt; element.</span>
-            <p class="question">What error or layout issue do you see? Why does this happen?</p>
+        <p class="question">What error or layout issue do you see? Why does this happen?</p>
 
-
-            <h2>Task 4: Review the HTML markup of the following Inline Elements</h2>
+        <h2>Task 4: Review the HTML markup of the following Inline Elements</h2>
         &lt;img&gt; element
         <img src="images/castle.webp" alt="placeholder image (images are inline)" width="300" height="300">
         <a href="https://churchofjesuschrist.org">&lt;a&gt; anchor element</a>
         <button type="button">&lt;button&gt; element</button>
-    </main>
+        </main>
 </body>
 
 </html>
